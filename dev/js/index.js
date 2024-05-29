@@ -18,7 +18,7 @@ function guardarMonedas() {
 // Iniciar Juego y Seleccion de Equipo
 function iniciar() {
     document.getElementById('inicio').style.display = 'none';
-    document.getElementById('seleccion-equipo').style.display = 'block';
+    document.getElementById('inicio-2').style.display = 'block';
 }
 
 function confirmarEquipo() {
@@ -28,6 +28,14 @@ function confirmarEquipo() {
     document.getElementById('partido').style.display = 'block';
 }
 
+function crearNuevoJuego() {
+    document.getElementById('inicio-2').style.display = 'none';
+    document.getElementById('seleccion-equipo').style.display = 'block';
+}
+
+function continuarJuego() {
+    // Logica aqui
+}
 // Simulacion de Partido
 
 function iniciarPartido() {
@@ -57,7 +65,7 @@ function comprarMonedas(cantidad) {
 
 // Ver Tabla
 
-function verTablaLiga() {
+function verTabla() {
     // Aquí puedes agregar lógica para mostrar la tabla de la liga
     alert("Tabla de Liga: (en construcción)");
 }
